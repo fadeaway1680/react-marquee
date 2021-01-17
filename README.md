@@ -20,7 +20,13 @@ import 'react-marquee/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <ReactMarquee>
+        <span>111111</span>
+        <span>222222</span>
+        <span>333333</span>
+      </ReactMarquee>
+    )
   }
 }
 ```
