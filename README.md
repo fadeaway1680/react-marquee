@@ -15,12 +15,18 @@ npm install --save react-marquee
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-marquee'
+import ReactMarquee from 'react-marquee'
 import 'react-marquee/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <ReactMarquee>
+        <span>111111</span>
+        <span>222222</span>
+        <span>333333</span>
+      </ReactMarquee>
+    )
   }
 }
 ```

@@ -1,3 +1,8 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11,4 +16,24 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.example-marquee {
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.example-marquee__item {
+  float: left;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.example-marquee__item:not(:last-child) {
+  margin-right: 25px;
 }

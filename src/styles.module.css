@@ -1,9 +1,30 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.marquee {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee__wrap {
+  position: absolute;
+  display: inline-block;
+  width: max-content;
+  transform: translateX(0%);
+  left: 100%;
+  animation-name: marquee-move;
+  animation-delay: 0.1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes marquee-move {
+  0% {
+    transform: translateX(0%);
+    left: 100%;
+  }
+  100% {
+    transform: translateX(-100%);
+    left: 0%;
+  }
 }
