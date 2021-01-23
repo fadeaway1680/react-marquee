@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save react-marquee
+npm install --save react-marquee-cfc
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save react-marquee
 ```jsx
 import React, { Component } from 'react'
 
-import ReactMarquee from '@cfc/react-marquee'
-import '@cfc/react-marquee/dist/index.css'
+import ReactMarquee from 'react-marquee-cfc'
+import 'react-marquee-cfc/dist/index.css'
 
 class Example extends Component {
   render() {
