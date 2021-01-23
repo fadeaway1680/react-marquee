@@ -1,5 +1,5 @@
 {
-  "name": "react-marquee",
+  "name": "@cfc/react-marquee",
   "version": "1.0.0",
   "description": "React Hooks 无限滚动效果组件",
   "author": "mZ1680",

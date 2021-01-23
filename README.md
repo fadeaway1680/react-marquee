@@ -15,8 +15,8 @@ npm install --save react-marquee
 ```jsx
 import React, { Component } from 'react'
 
-import ReactMarquee from 'react-marquee'
-import 'react-marquee/dist/index.css'
+import ReactMarquee from '@cfc/react-marquee'
+import '@cfc/react-marquee/dist/index.css'
 
 class Example extends Component {
   render() {
